@@ -1,4 +1,4 @@
-# 🚀 Lógica de Programação em Python
+# 🚀 Programação Python
 
 Este repositório contém exemplos práticos de códigos em Python, ideais para quem está aprendendo lógica de programação. O objetivo deste projeto é proporcionar um conjunto de exercícios simples que abordam diferentes conceitos de programação.
 
