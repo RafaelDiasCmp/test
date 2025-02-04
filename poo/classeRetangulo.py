@@ -2,6 +2,21 @@ class Retangulo:
     def __init__(self, base, altura):
             self.base = base
             self.altura = altura
+
+    #Propriedade base
+    @property # @DECORATOR  getter      -- sinalizador para interpretar o código a seguir de uma maneira especial   GETTER
+    def base(self):
+        return self._base
+    
+    #setter
+    @base.setter
+    def base(self, valor):
+        if not isinstance(valor, int | float):
+             raise TypeError('Valor numérico esperado')
+        if valor < 0:
+            raise ValueError('Valor positivo esperado')
+        self._base = valor
+             
     
     def calc_area(self):
         return self.altura * self.base
